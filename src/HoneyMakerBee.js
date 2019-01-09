@@ -2,8 +2,6 @@ var HoneyMakerBee = function() {
   Bee.call(this);
   this.age = 10;
   this.job = 'make honey';
-  this.color = Object.getPrototypeOf(HoneyMakerBee.prototype).color;
-  this.food = Object.getPrototypeOf(HoneyMakerBee.prototype).food;
   this.honeyPot = 0;
 };
 
